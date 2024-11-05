@@ -1,0 +1,140 @@
+body{
+    background-color: black;
+}
+.calcContainers{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+p{
+    color: white;
+    text-align: center;
+}
+
+.tdCalcContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: 3vh;
+}
+.tdCalcContainer h1{
+    color: rgb(206, 206, 206);
+}
+
+.tdInput{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.tgV{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    width: 33vw;
+    height: 10vh;
+    background-color: rgb(49, 195, 0);
+    border-radius: 16px;
+    box-shadow: 0px 0px 10px black;
+}
+.tgV input{
+    border-radius: 16px;
+}
+.tgT{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    width: 33vw;
+    height: 10vh;
+    background-color: rgb(200, 0, 7);
+    border-radius: 16px;
+    box-shadow: 0px 0px 10px black;
+}
+.tgT input{
+    border-radius: 16px;
+}
+.finalInput{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    width: 33vw;
+    height: 10vh;
+    background-color: rgb(0, 85, 195);
+    border-radius: 16px;
+    box-shadow: 0px 0px 10px black;
+}
+.finalInput input{
+    border-radius: 16px;
+}
+.tdCalcBtn{
+    width: 10vw;
+    height: 5vh;
+    background-color: black;
+    color: white;
+    border-radius: 980px;
+    box-shadow: 0px 0px 10px black;
+}
+/*-------E=mc^2 calc-------- */
+
+
+.meCalcContainer{
+    margin: 25vh;
+}
+.meCalcContainer h1{
+    color: white;
+    text-align: center;
+}
+
+.meE{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    width: 33vw;
+    height: 10vh;
+    background-color: rgb(49, 195, 0);
+    border-radius: 16px;
+    box-shadow: 0px 0px 10px black;
+}
+.meE input{
+    border-radius: 16px;
+    margin-top: -20px;
+    margin-bottom: 5px;
+}
+.meE h1{
+    margin-top: 5px;
+}
+.meM{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    width: 33vw;
+    height: 10vh;
+    background-color: rgb(200, 0, 7);
+    border-radius: 16px;
+    box-shadow: 0px 0px 10px black;
+}
+.meM input{
+    border-radius: 16px;
+    margin-top: -20px;
+    margin-bottom: 5px;
+}
+.meM h1{
+    margin-top: 5px;
+}
+.c{
+    border-radius: 16px;
+    margin-top: -1vh;
+}
+.meBtn{
+    border-radius: 16px;
+}

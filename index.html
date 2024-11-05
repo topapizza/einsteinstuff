@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calcContainers">
+        <div class="tdCalcContainer">
+        <h1>Aikadilaatiolaskin by Toivo</h1>
+
+            <div class="tdInput">
+
+                <div class="tgV">
+                    <h1 id="tdh1">ν (speed, m/s)</h1>
+                    <input type="text" id="tgVInput">
+                </div>
+
+                <div class="tgT">
+                    <h1 id="tdh1">τ (time, seconds)</h1>
+                    <input type="text" id="tgTInput">
+                </div>
+                
+            </div>
+
+            <button onclick="startCalculating()" class="tdCalcBtn">Calculate</button>
+        
+            <div class="finalInput">
+                <h1 id="tdh1">insert description</h1>
+                <input type="text" id="finalInput">
+                <p style="margin-top: 100px;">Aikadilaation vuoksi paikallaan oleva tarkkailija havaitsee, että liikkuvan kohteen aika kulkee hitaammin.</p>
+                <p>Aikaero:</p>
+                <p id="timedifference"></p>
+            </div>
+        
+        </div>
+
+        <div class="meCalcContainer">
+            <h1>Massa - energia muunnin by Toivo</h1>
+
+            <div class="meE">
+                <h1 id="tdh1">E (energy, joule)</h1>
+                <input type="text" id="meEInput">
+                <button onclick="calculateEnergyToMass()" class="meBtn">Calculate energy to Mass</button>
+            </div>
+
+            <div class="meM">
+                <h1 id="tdh1">M (mass, kg)</h1>
+                <input type="text" id="meMInput">
+                <button onclick="calculateMassToEnergy()" class="meBtn">Calculate mass to energy</button>
+            </div>
+            
+            <div class="meM">
+                <h1 id="tdh1">c (lightspeed, m/s)</h1>
+                <p class="c">299792458</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    
+    
+    
+</body>
+
+<script src="script.js">
+
+</script>
+</html>
